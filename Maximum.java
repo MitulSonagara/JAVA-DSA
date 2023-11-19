@@ -1,0 +1,18 @@
+/*It will print the maximum element from the array */
+public class Maximum {
+    public static void main(String[] args) {
+        int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 5, 2, 2, 2, 5, 5, 5555, 5, 5 };
+        System.out.println(max(arr));
+    }
+
+    // imagin that array is not empty
+    static int max(int[] arr) {
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        return max;
+    }
+}
