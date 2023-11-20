@@ -7,6 +7,7 @@
         Average Case : O(n) 
 
  */
+package Linear_Search;
 
 public class LinearSearch {
     public static void main(String[] args) {
