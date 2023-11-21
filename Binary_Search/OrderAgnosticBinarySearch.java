@@ -2,8 +2,6 @@
     Order Agnostic Binary Search means it is given that the array is sorted but this is not given that it is in increasing order or in decreasing order... then this will be apply.
  */
 
-package Binary_Search;
-
 public class OrderAgnosticBinarySearch {
     public static void main(String[] args) {
         int[] arr1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
