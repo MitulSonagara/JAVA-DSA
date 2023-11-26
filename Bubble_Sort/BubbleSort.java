@@ -8,7 +8,7 @@
 
     This is a stable sorting algorithm means the original order of the same elements will be maintained.
  */
-
+ 
 import java.util.Arrays;
 
 public class BubbleSort {
