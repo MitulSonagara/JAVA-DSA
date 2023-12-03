@@ -23,7 +23,7 @@ public class BubbleSort {
         // run outer loop n-1 times
         for (int i = 0; i < arr.length; i++) {
             swapped = false;
-            // For each step, max item will come at the last respective index
+            // For each step, max item will come at the last respective index 
             for (int j = 1; j < arr.length - i; j++) {
                 // swap if the item is smaller than the previous item
                 if (arr[j] < arr[j - 1]) {
