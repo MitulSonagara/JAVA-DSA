@@ -15,7 +15,7 @@ public class ReverseArr {
         int temp = arr[index1];
         arr[index1] = arr[index2];
         arr[index2] = temp;
-    }
+    } 
 
     static void reverse(int[] arr) {
         int start = 0;
