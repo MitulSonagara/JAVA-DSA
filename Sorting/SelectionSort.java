@@ -1,5 +1,6 @@
+package Sorting;
 /*
-    Selection Sort : Select the smallest or largest element and place it at its correct position.
+    Selection Sort : Select the smallest or largest element and swap it.
 
     Time Complexity : 
         Worst Case : O(N^2)

@@ -1,3 +1,4 @@
+package Sorting;
 /* 
     Bubble Sort :
         Also known as sinking sort or exchange sort.
@@ -35,7 +36,7 @@ public class BubbleSort {
                 }
             }
 
-            // If there is no swaping for particular pass or value of i...
+            // If there is no swapping for particular pass or value of i...
             // this means array is sorted and stop the program
             if (!swapped) {
                 break;
