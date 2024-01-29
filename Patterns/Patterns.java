@@ -26,6 +26,8 @@ public class Patterns {
         System.out.println();
         pattern9(5);
         System.out.println();
+        pattern10(4);
+        System.out.println();
     }
 
     static void pattern1(int n) {
@@ -139,7 +141,24 @@ public class Patterns {
         for (int row = 1; row <= 2 * n - 1; row++) {
             for (int col = 1; col <= 2 * n - 1; col++) {
                 int e = n - Math.min(Math.min(row - 1, col - 1), Math.min(2 * n - 1 - row, 2 * n - 1 - col));
-                System.out.print(e+" ");
+                System.out.print(e + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    static void pattern10(int n) {
+        for (int row = 1; row <= 2 * n - 1; row++) {
+            int c = row > n ? 2 * n - row : row;
+            int s = row > n ? 2 * row - 2 * n : 2 * n - 2 * row;
+            for (int col = 1; col <= c; col++) {
+                System.out.print("* ");
+            }
+            for (int col = 1; col <= s; col++) {
+                System.out.print("  ");
+            }
+            for (int col = 1; col <= c; col++) {
+                System.out.print("* ");
             }
             System.out.println();
         }
