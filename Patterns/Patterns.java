@@ -28,6 +28,8 @@ public class Patterns {
         System.out.println();
         pattern10(4);
         System.out.println();
+        pattern11(5);
+        System.out.println();
     }
 
     static void pattern1(int n) {
@@ -111,6 +113,7 @@ public class Patterns {
                 System.out.print("  ");
             }
             for (int col = row; col >= 1; col--) {
+
                 System.out.print(col + " ");
             }
             for (int col = 2; col <= row; col++) {
@@ -160,6 +163,28 @@ public class Patterns {
             for (int col = 1; col <= c; col++) {
                 System.out.print("* ");
             }
+            System.out.println();
+        }
+    }
+
+    static void pattern11(int n) {
+        for (int row = 1; row <= (2 * n - 1); row++) {
+            int c, s;
+            c = row > n ? 2 * n - row : row;
+            s = row > n ? row - n : n - row;
+
+            for (int space = 1; space <= s; space++) {
+                System.out.print(" ");
+            }
+
+            for (int col = 1; col <= c; col++) {
+                if (col == 1 || col == c ) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  "); 
+                }
+            }
+
             System.out.println();
         }
     }
