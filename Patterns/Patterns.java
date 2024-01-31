@@ -5,7 +5,7 @@ package Patterns;
         2. Identify for every row number: How many cols are there and type of element in col
         3. What do you need to print (try to find formula relating rows and cols)
  */
-
+ 
 public class Patterns {
     public static void main(String[] args) {
         pattern1(5);
