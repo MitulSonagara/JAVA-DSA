@@ -14,7 +14,7 @@ public class Calculator {
                 if (op == '+') {
                     System.out.println("The sum is : " + (a + b));
                 } else if (op == '-') {
-                    System.out.println("The subtraction is : " + (a - b));
+                    System.out.println("The subtraction is : " + (a - b)); 
                 } else if (op == '*') {
                     System.out.println("The multiplication is : " + (a * b));
                 } else if (op == '/') {
