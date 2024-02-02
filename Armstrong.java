@@ -12,7 +12,7 @@ public class Armstrong {
         int sum = 0;
         while (temp > 0) {
             int rem = temp % 10;
-            sum = (sum) + (int) (Math.pow(rem, power));
+            sum = (sum) + (int) (Math.pow(rem, power)); 
             temp = temp / 10;
         }
         if (sum == a) {
