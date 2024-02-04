@@ -13,6 +13,6 @@ public class Maximum {
                 max = arr[i];
             }
         }
-        return max;
+        return max; 
     }
 }
