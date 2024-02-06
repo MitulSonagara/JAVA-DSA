@@ -18,7 +18,7 @@ public class Patterns {
         System.out.println();
         pattern5(5);
         System.out.println();
-        pattern6(5);
+        pattern6(5); 
         System.out.println();
         pattern7(5);
         System.out.println();
