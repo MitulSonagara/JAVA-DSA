@@ -13,7 +13,7 @@ public class Calculator {
                 int b = sc.nextInt();
                 if (op == '+') {
                     System.out.println("The sum is : " + (a + b)); 
-                } else if (op == '-') {
+                } else if (op == '-') { 
                     System.out.println("The subtraction is : " + (a - b)); 
                 } else if (op == '*') {
                     System.out.println("The multiplication is : " + (a * b));
