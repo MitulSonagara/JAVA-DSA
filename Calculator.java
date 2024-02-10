@@ -11,7 +11,7 @@ public class Calculator {
                 int a = sc.nextInt();
                 System.out.print("Enter second number : ");
                 int b = sc.nextInt();
-                if (op == '+') {
+                if (op == '+') { 
                     System.out.println("The sum is : " + (a + b)); 
                 } else if (op == '-') { 
                     System.out.println("The subtraction is : " + (a - b)); 
