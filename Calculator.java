@@ -9,7 +9,7 @@ public class Calculator {
             if (op == '+' || op == '-' || op == '*' || op == '/' || op == '%') {
                 System.out.print("Enter first number : ");
                 int a = sc.nextInt();
-                System.out.print("Enter second number : ");
+                System.out.print("Enter second number : "); 
                 int b = sc.nextInt();
                 if (op == '+') { 
                     System.out.println("The sum is : " + (a + b)); 
