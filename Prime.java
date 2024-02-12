@@ -10,7 +10,7 @@ public class Prime {
     }
 
 
-    static void isPrime(int n) {
+    static void isPrime(int n) { 
         if (n <= 1) {
             System.out.println("neither prime nor not prime");
             return;
